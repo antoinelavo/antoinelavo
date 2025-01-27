@@ -1,0 +1,164 @@
+:root {
+    --colorprimary: #292a2d;
+    --colorsecondary: #ffffff;
+    --colorbackground: #1e1f21;
+    --blue: #3d9be9;
+    --pink: #ff6a7a;
+    margin: 0;
+    background-color: var(--colorbackground);
+    
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a img{
+    width: 200px;
+}
+
+h3, h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--colorsecondary);
+    
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: var(--colorsecondary);
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: var(--pink);
+    margin: 0px;
+    padding: 0px;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: var(--blue);
+}
+
+
+.topbar a{
+    color: var(--colorsecondary);
+}
+
+.topbar{
+    background-color: var(--colorprimary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+.newsstand{
+    background-color: var(--colorbackground);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1250px;
+    width: 100%;
+    padding-top: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+}
+
+
+.newsblock{
+    display: flex;
+    background: var(--);
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--colorsecondary);
+    width: 200px;
+    height: auto;
+    margin: 0px;
+    padding: 30px 10px;
+}
+
+
+.typeHeader{
+    border-bottom: 1px solid var(--colorsecondary);
+}
+
+.newsblock h5, .newsblock h6, .newsblock h3{
+    margin: 0;
+    padding: 0;
+}
+
+.newsblock h5:hover{
+    color:var(--blue);
+    transition: color 0.3s ease;
+}
+
+.newsblock h3:hover{
+    color:var(--pink);
+    transition: color 0.3s ease;
+}
+
+.weeklyFeatureImage img{
+    width: 400px;
+}
+
+.weeklyFeatureImage{
+    border-bottom: 1px solid var(--colorsecondary);
+}
+
+
+#latest-news-list, #quick-facts-list {
+    width: auto;
+    margin: 0; 
+    padding: 0%;
+    background-color: none; 
+}
+
+
+#latest-news-list a, #quick-facts-list a {
+    display: block; 
+    padding: 30px 10px; 
+    margin-bottom: 0px; 
+    background-color: none; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s; 
+    border-bottom: 1px solid var(--colorsecondary);
+}
+
+#latest-news-list a:hover {
+    color: var(--pink);
+}
+
+#quick-facts-list a:hover {
+    color: var(--blue);
+}

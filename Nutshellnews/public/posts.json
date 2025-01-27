@@ -1,0 +1,22 @@
+{
+  "latestNews": [
+    {
+      "title": "Elon Musk.md",
+      "category": "Tech"
+    },
+    {
+      "title": "news2.md",
+      "category": "Science"
+    }
+  ],
+  "quickFacts": [
+    {
+      "title": "COVID19.md",
+      "category": "Health"
+    },
+    {
+      "title": "fact2.md",
+      "category": "Environment"
+    }
+  ]
+}
